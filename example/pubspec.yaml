@@ -1,0 +1,29 @@
+name: reorderable_list
+description: Reorderable list view example
+homepage: https://github.com/knopp/flutter_reorderable_list
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+
+  flutter_reorderable_list:
+    path: ../
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
